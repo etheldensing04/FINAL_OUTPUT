@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
+body {
+    font-family: 'Kameron';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 10rem;
+}
+
+.header img {
+    width: 15%;
+    margin-left: 5%;
+}
+
+.header nav ul {
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-right: 2rem;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem ;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 832px;
+    background-color: #CDF2CA;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 200px;
+    flex-direction: row;
+    overflow: hidden ;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    padding-left: 4rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-image {
+    border-top-left-radius: 300px;
+    height: 100%;
+    flex: 1;
+    background-image: url(./assets/homepage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #1A5319;
+}
+
+.hero-text p {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.hero-text .btn {
+    font-size: larger;
+    margin-left: 100px;
+    padding: 10px 20px;
+    background-color: #80AF81;
+    color: #000000;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.about {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.about-text {
+    padding: 0;
+}
+
+.about-text h2 {
+    font-size: 4rem;
+    line-height: 0;
+    margin-top: 2rem;
+}
+
+.about-text p {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.about-text ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.about-text ul li {
+    margin-top: 5px;
+    font-size: 1.9rem;
+    color: #1A5319;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
+body {
+    font-family: 'Kameron';
+    margin: 0;
+    padding: 0;
+}
+.header{
+
+}
+.service{
+    color: black;
+    background-color: #80AF81;
+    width: fit-content;
+    margin-left: 3rem;
+    font-weight: 100;
+}
+.header p{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
