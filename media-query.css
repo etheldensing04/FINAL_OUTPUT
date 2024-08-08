@@ -1,0 +1,177 @@
+@media only screen and (min-width: 0px) and (max-width: 620px) {
+  .people-say {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .say-img img {
+    width:50%;
+  }
+
+  .say-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+    gap: 0rem;
+  }
+
+  .say-text h2 {
+      font-size: 2rem;
+  }
+
+  .say-text p {
+      font-size: medium;
+  }
+
+  .say-img {
+      padding: 2rem;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+  }
+
+  .appointment-container {
+    margin: 4rem 2rem;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+
+  .appointment-container h1 {
+      margin-top: 2rem;
+      text-align: center;
+      line-height:3;
+      font-size: 1rem;
+  }
+
+  .appointment-container form {
+      display: flex;
+      font-size: x-large;
+      gap: 2rem;
+  }
+
+  .appointment-container form div:nth-of-type(1) {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      margin-left: 2rem;
+  }
+
+  .appointment-container form div:nth-of-type(1) label {
+    font-size: 1rem;
+  }
+
+  .appointment-container form div:nth-of-type(2) {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-right: 2rem;
+  }
+
+  .appointment-container form div:nth-of-type(2) input {
+      font-size: 1rem;
+      border: 0;
+  }
+
+  .appointment-container form div:nth-of-type(2) nav a {
+      margin-right: 12rem;
+      line-height: 0;
+      text-decoration: none;
+  }
+
+  footer li {
+    list-style: none;
+    font-size: small;
+  }
+
+  .box {
+      width: 12rem;
+      height: 22rem;
+  }
+
+  .service-info p {
+    font-size: small;
+  }
+
+  .header {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+  .people-say {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .say-img img {
+    width:50%;
+  }
+
+  .header {
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+
+  .header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+  }
+
+  .hero-text {
+    flex: 1;
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-image {
+      border-top-left-radius: 200px;
+  }
+
+  .hero-text h1 {
+      font-size: 1rem;
+      font-weight: 100;
+      color: #1A5319;
+      justify-content: start;
+  }
+
+  .hero-text p {
+      font-size: medium;
+      margin-bottom: 30px;
+  }
+
+  .btn {
+    width: fit-content;
+    font-size: 1rem;
+  }
+
+  .about-text h2 {
+    font-size: 1rem;
+    line-height: 0;
+    margin-top: 2rem;
+  }
+
+  .about-text p {
+      flex: 1;
+      margin-bottom: 3rem;
+      font-size:1rem;
+  }
+
+  .about-image {
+    flex: 2;
+    display: grid;
+    place-items: center;
+  }
+
+  .about-image img{
+    width: 60%;
+  }
+}

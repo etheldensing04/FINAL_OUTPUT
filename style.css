@@ -107,7 +107,12 @@ body {
     gap: 1rem;
 }
 
+.about-img {
+    flex: 1;
+}
+
 .about-text {
+    flex: 2;
     padding: 0;
 }
 
